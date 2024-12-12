@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>通栏布局</title>
+
+    <style>
+        * {
+
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            width: 980px;
+            background: green;
+            margin: 5px auto;
+        }
+
+        #div_head {
+            height: 40px;
+        }
+
+        #div_nav {
+            height: 60px;
+        }
+
+        #div_jiao {
+            height: 200px;
+        }
+
+        #div_left {
+            height: 200px;
+            width: 321px;
+            float: left;
+        }
+
+        #div_right {
+            height: 200px;
+            width: 650px;
+            float: right;
+
+        }
+
+        #div_foot {
+            height: 90px;
+            clear: both;
+        }
+
+
+        #tong_1 {
+            width: 100%;
+            background: rgb(38, 159, 180);
+            height: 40px;
+        }
+
+        #tong_2 {
+            width: 100%;
+            background: turquoise;
+            height: 90px;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="tong_1">
+        <div id="div_head">头</div>
+
+    </div>
+
+    <div id="div_nav">导航栏</div>
+
+    <div id="div_jiao">聚焦点</div>
+
+    <div id="content">
+
+        <div id="div_left">左</div>
+
+        <div id="div_right">右</div>
+
+    </div>
+
+    <div id="tong_2">
+
+        <div id="div_foot">脚</div>
+    </div>
+</body>
+
+</html>
